@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Te <a href="https://nextjs.org">AMO!</a>
+          Nextjs <a href="https://sunrun.com">Sunrun</a> POC
         </h1>
 
         <p className={styles.description}>
-          Cumpliremos nuestras metas mientras logremos mantenernos unidos! Saludos y besos a Amy y osho!!
+          Using nextjs router
         </p>
 
       </main>
