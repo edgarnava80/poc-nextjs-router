@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     loader: 'akamai',
     path: ''
-  }
+  },
+  basePath: '/poc-nextjs-router',
+  assetPrefix: '/poc-nextjs-router',
 }
 
 module.exports = nextConfig
