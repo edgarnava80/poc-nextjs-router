@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 export default function Home() {
     const router = useRouter();
 
-    const jsonPlans = router.query.plans.split(';');
+    const jsonPlans = router.query.plans?.split(';') || [];
 
     const plans = jsonPlans.map(plan => {
         return JSON.parse(plan);
