@@ -8,6 +8,7 @@ const nextConfig = {
   },
   basePath: '/poc-nextjs-router',
   assetPrefix: '/poc-nextjs-router',
+  devtool: 'source-map',
 }
 
 module.exports = nextConfig
